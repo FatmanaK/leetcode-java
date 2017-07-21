@@ -1,29 +1,37 @@
 package ca.uwaterloo;
 
 public class Solution {
+
+    private int maxLen = 0;
+    private String maxSub = null;
+
     public String longestPalindrome(String s) {
 
-        int maxLength = 0;
-        String maxPal = null;
-        int length = 0;
+        int strLen = s.length();
 
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i; j < s.length(); j++) {
-                String currStr = s.substring(i, j + 1);
-                if (isPalindrome(currStr)) {
-                    length = currStr.length();
-                    if (length > maxLength) {
-                        maxLength = length;
-                        maxPal = currStr;
-                    }
-                }
-            }
+        if (strLen < 2) {
+            return s;
         }
 
-        return maxPal;
+        int j;
+        for (int i = 0; i < strLen; i++) {
+            bloomPalindrome(s, strLen, i, i);
+            bloomPalindrome(s, strLen, i, i + 1);
+        }
+
+        return maxSub;
     }
 
-    private Boolean isPalindrome(String currStr) {
-        return currStr.equals(new StringBuilder(currStr).reverse().toString());
+    private void bloomPalindrome(String s, int strLen, int i, int j) {
+        if (i >=0 && j < strLen) {
+            if (s.charAt(i) == s.charAt(j)) {
+                if (j - i + 1 > maxLen) {
+                    maxLen = j - i + 1;
+                    maxSub = s.substring(i, j + 1);
+                }
+
+                bloomPalindrome(s, strLen, i - 1, j + 1);
+            }
+        }
     }
 }

@@ -6,3 +6,4 @@
 * Median of Two Sorted Arrays - [Problem](https://leetcode.com/problems/median-of-two-sorted-arrays) - [Solution](https://github.com/v1n337/leetcode/tree/master/median-of-two-sorted-arrays/src/ca/uwaterloo)
 * Longest Palindromic Substring - [Problem](https://leetcode.com/problems/longest-palindromic-substring) - [Solution](https://github.com/v1n337/leetcode/tree/master/longest-palindromic-substring/src/ca/uwaterloo)
 * ZigZag Conversion - [Problem](https://leetcode.com/problems/zigzag-conversion) - [Solution](https://github.com/v1n337/leetcode/tree/master/zigzag-conversion/src/ca/uwaterloo)
+* Reverse Integer - [Problem](https://leetcode.com/problems/reverse-integer) - [Solution](https://github.com/v1n337/leetcode/tree/master/reverse-integer/src/ca/uwaterloo)

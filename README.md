@@ -10,3 +10,4 @@
 | ZigZag Conversion | [Problem](https://leetcode.com/problems/zigzag-conversion) | [Solution](https://github.com/v1n337/leetcode/tree/master/zigzag-conversion/src/ca/uwaterloo) |
 | Reverse Integer | [Problem](https://leetcode.com/problems/reverse-integer) | [Solution](https://github.com/v1n337/leetcode/tree/master/reverse-integer/src/ca/uwaterloo) |
 | String to Integer | [Problem](https://leetcode.com/problems/string-to-integer-atoi) | [Solution](https://github.com/v1n337/leetcode/tree/master/string-to-integer-atoi/src/ca/uwaterloo) |
+| Palindrome Number | [Problem](https://leetcode.com/problems/palindrome-number) | [Solution](https://github.com/v1n337/leetcode/tree/master/palindrome-number/src/ca/uwaterloo) |

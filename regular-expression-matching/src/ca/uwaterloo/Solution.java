@@ -6,90 +6,38 @@ import java.util.List;
 
 public class Solution {
 
-    abstract class Token {
-        boolean repeatable;
-    }
-
-    class ConcreteToken extends Token {
-        Character pattern;
-
-        ConcreteToken(Character pattern) {
-            this.pattern = pattern;
-        }
-
-        @Override
-        public String toString() {
-            return "ConcreteToken{" +
-                    "repeatable=" + repeatable +
-                    ", pattern='" + pattern + '\'' +
-                    '}';
-        }
-    }
-
-    class WildCardToken extends Token {
-        @Override
-        public String toString() {
-            return "WildCardToken{" +
-                    "repeatable=" + repeatable +
-                    '}';
-        }
-    }
-
     public boolean isMatch(String s, String p) {
 
-        if (null == s || null == p) {
+        if (s == null || p == null) {
             return false;
         }
 
-        int sLen = s.length();
-        List<Token> tokens = tokenizePattern(p);
-        System.out.println(tokens);
+        boolean[][] dp = new boolean[s.length()+1][p.length()+1];
+        dp[0][0] = true;
 
-        int tokenIndex = 0;
-        int stringIndex = 0;
-        int previousConcreteIndex = 0;
-        for (int i = 0; i < tokens.size(); i++) {
-            Token token = tokens.get(i);
-            if (token instanceof ConcreteToken) {
-                ConcreteToken concreteToken = (ConcreteToken) token;
-                while (stringIndex < sLen && concreteToken.pattern != s.charAt(stringIndex)) {
-                    ++stringIndex;
-                }
-
-                if (stringIndex == sLen) {
-                    return false;
-                } else {
-                    return isMatch(s.substring(previousConcreteIndex, stringIndex), s.sub)
-                }
+        for (int i = 0; i < p.length(); i++) {
+            if (p.charAt(i) == '*' && dp[0][i-1]) {
+                dp[0][i+1] = true;
             }
         }
 
-        return true;
-    }
-
-    private List<Token> tokenizePattern(String p) {
-        List<Token> tokens = new ArrayList<>();
-        int patternLength = p.length();
-
-        int index = 0;
-        while (index < patternLength) {
-
-            Token currentToken = null;
-            if (p.charAt(index) == '.') {
-                currentToken = new WildCardToken();
-            } else {
-                currentToken = new ConcreteToken(p.charAt(index));
+        for (int i = 0 ; i < s.length(); i++) {
+            for (int j = 0; j < p.length(); j++) {
+                if (p.charAt(j) == '.') {
+                    dp[i+1][j+1] = dp[i][j];
+                }
+                if (p.charAt(j) == s.charAt(i)) {
+                    dp[i+1][j+1] = dp[i][j];
+                }
+                if (p.charAt(j) == '*') {
+                    if (p.charAt(j-1) != s.charAt(i) && p.charAt(j-1) != '.') {
+                        dp[i+1][j+1] = dp[i+1][j-1];
+                    } else {
+                        dp[i+1][j+1] = (dp[i+1][j] || dp[i][j+1] || dp[i+1][j-1]);
+                    }
+                }
             }
-            ++index;
-
-            if (index + 1 < patternLength && p.charAt(index + 1) == '*') {
-                currentToken.repeatable = true;
-                ++index;
-            }
-
-            tokens.add(currentToken);
         }
-
-        return tokens;
+        return dp[s.length()][p.length()];
     }
 }

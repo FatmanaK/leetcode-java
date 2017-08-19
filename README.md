@@ -14,3 +14,4 @@
 | Regular Expression Matching (incomplete) | [Problem](https://leetcode.com/problems/regular-expression-matching) | [Solution](https://github.com/v1n337/leetcode/tree/master/regular-expression-matching/src/ca/uwaterloo) |
 | Roman to Integer | [Problem](https://leetcode.com/problems/roman-to-integer) | [Solution](https://github.com/v1n337/leetcode/tree/master/roman-to-integer/src/ca/uwaterloo) |
 | Container With Most Water | [Problem](https://leetcode.com/problems/container-with-most-water) | [Solution](https://github.com/v1n337/leetcode/tree/master/container-with-most-water/src/ca/uwaterloo) |
+| Integer to Roman | [Problem](https://leetcode.com/problems/integer-to-roman) | [Solution](https://github.com/v1n337/leetcode/tree/master/integer-to-roman/src/ca/uwaterloo) |

@@ -2,19 +2,18 @@
 
 | Description |  |  |
 |---|---|---|
-| Two Sum | [Problem](https://leetcode.com/problems/two-sum) | [Solution](https://github.com/v1n337/leetcode/tree/master/two-sum/src/ca/uwaterloo) |
-| Add Two Numbers | [Problem](https://leetcode.com/problems/add-two-numbers) | [Solution](https://github.com/v1n337/leetcode/tree/master/add-two-numbers/src/ca/uwaterloo) |
-| Longest Substring Without Repeating Characters | [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Solution](https://github.com/v1n337/leetcode/tree/master/longest-substring-without-repeating-characters/src/ca/uwaterloo) |
-| Median of Two Sorted Arrays | [Problem](https://leetcode.com/problems/median-of-two-sorted-arrays) | [Solution](https://github.com/v1n337/leetcode/tree/master/median-of-two-sorted-arrays/src/ca/uwaterloo) |
-| Longest Palindromic Substring | [Problem](https://leetcode.com/problems/longest-palindromic-substring) | [Solution](https://github.com/v1n337/leetcode/tree/master/longest-palindromic-substring/src/ca/uwaterloo) |
-| ZigZag Conversion | [Problem](https://leetcode.com/problems/zigzag-conversion) | [Solution](https://github.com/v1n337/leetcode/tree/master/zigzag-conversion/src/ca/uwaterloo) |
-| Reverse Integer | [Problem](https://leetcode.com/problems/reverse-integer) | [Solution](https://github.com/v1n337/leetcode/tree/master/reverse-integer/src/ca/uwaterloo) |
-| String to Integer | [Problem](https://leetcode.com/problems/string-to-integer-atoi) | [Solution](https://github.com/v1n337/leetcode/tree/master/string-to-integer-atoi/src/ca/uwaterloo) |
-| Palindrome Number | [Problem](https://leetcode.com/problems/palindrome-number) | [Solution](https://github.com/v1n337/leetcode/tree/master/palindrome-number/src/ca/uwaterloo) |
-| Regular Expression Matching (incomplete) | [Problem](https://leetcode.com/problems/regular-expression-matching) | [Solution](https://github.com/v1n337/leetcode/tree/master/regular-expression-matching/src/ca/uwaterloo) |
-| Roman to Integer | [Problem](https://leetcode.com/problems/roman-to-integer) | [Solution](https://github.com/v1n337/leetcode/tree/master/roman-to-integer/src/ca/uwaterloo) |
-| Container With Most Water | [Problem](https://leetcode.com/problems/container-with-most-water) | [Solution](https://github.com/v1n337/leetcode/tree/master/container-with-most-water/src/ca/uwaterloo) |
-| Integer to Roman | [Problem](https://leetcode.com/problems/integer-to-roman) | [Solution](https://github.com/v1n337/leetcode/tree/master/integer-to-roman/src/ca/uwaterloo) |
-| Longest Common Prefix | [Problem](https://leetcode.com/problems/longest-common-prefix) | [Solution](https://github.com/v1n337/leetcode/tree/master/longest-common-prefix/src/ca/uwaterloo) |
-| 3Sum (incomplete) | [Problem](https://leetcode.com/problems/3sum) | [Solution](https://github.com/v1n337/leetcode/tree/master/3sum/src/ca/uwaterloo) |
-
+| Two Sum | [Problem](https://leetcode.com/problems/two-sum) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/two-sum/src/ca/uwaterloo) |
+| Add Two Numbers | [Problem](https://leetcode.com/problems/add-two-numbers) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/add-two-numbers/src/ca/uwaterloo) |
+| Longest Substring Without Repeating Characters | [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/longest-substring-without-repeating-characters/src/ca/uwaterloo) |
+| Median of Two Sorted Arrays | [Problem](https://leetcode.com/problems/median-of-two-sorted-arrays) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/median-of-two-sorted-arrays/src/ca/uwaterloo) |
+| Longest Palindromic Substring | [Problem](https://leetcode.com/problems/longest-palindromic-substring) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/longest-palindromic-substring/src/ca/uwaterloo) |
+| ZigZag Conversion | [Problem](https://leetcode.com/problems/zigzag-conversion) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/zigzag-conversion/src/ca/uwaterloo) |
+| Reverse Integer | [Problem](https://leetcode.com/problems/reverse-integer) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/reverse-integer/src/ca/uwaterloo) |
+| String to Integer | [Problem](https://leetcode.com/problems/string-to-integer-atoi) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/string-to-integer-atoi/src/ca/uwaterloo) |
+| Palindrome Number | [Problem](https://leetcode.com/problems/palindrome-number) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/palindrome-number/src/ca/uwaterloo) |
+| Regular Expression Matching (incomplete) | [Problem](https://leetcode.com/problems/regular-expression-matching) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/regular-expression-matching/src/ca/uwaterloo) |
+| Roman to Integer | [Problem](https://leetcode.com/problems/roman-to-integer) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/roman-to-integer/src/ca/uwaterloo) |
+| Container With Most Water | [Problem](https://leetcode.com/problems/container-with-most-water) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/container-with-most-water/src/ca/uwaterloo) |
+| Integer to Roman | [Problem](https://leetcode.com/problems/integer-to-roman) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/integer-to-roman/src/ca/uwaterloo) |
+| Longest Common Prefix | [Problem](https://leetcode.com/problems/longest-common-prefix) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/longest-common-prefix/src/ca/uwaterloo) |
+| 3Sum | [Problem](https://leetcode.com/problems/3sum) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/3sum/src/ca/uwaterloo) |

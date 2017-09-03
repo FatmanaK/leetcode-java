@@ -17,4 +17,4 @@
 | Integer to Roman | [Problem](https://leetcode.com/problems/integer-to-roman) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/integer-to-roman/src/ca/uwaterloo/Solution.java) |
 | Longest Common Prefix | [Problem](https://leetcode.com/problems/longest-common-prefix) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/longest-common-prefix/src/ca/uwaterloo/Solution.java) |
 | 3Sum | [Problem](https://leetcode.com/problems/3sum) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/3sum/src/ca/uwaterloo/Solution.java) |
-| 3Sum Closest (incomplete) | [Problem](https://leetcode.com/problems/3sum-closest) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/3sum-closest/src/ca/uwaterloo/Solution.java) |
+| 3Sum Closest | [Problem](https://leetcode.com/problems/3sum-closest) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/3sum-closest/src/ca/uwaterloo/Solution.java) |

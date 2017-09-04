@@ -22,3 +22,4 @@
 | 4Sum | [Problem](https://leetcode.com/problems/4sum) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/4sum/src/ca/uwaterloo/Solution.java) |
 | Remove Nth Node From End of List | [Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/remove-nth-node-from-end-of-list/src/ca/uwaterloo/Solution.java) |
 | Valid Parentheses | [Problem](https://leetcode.com/problems/valid-parentheses) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/valid-parentheses/src/ca/uwaterloo/Solution.java) |
+| Merge Two Sorted Lists | [Problem](https://leetcode.com/problems/merge-two-sorted-lists) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/merge-two-sorted-lists/src/ca/uwaterloo/Solution.java) |

@@ -21,3 +21,4 @@
 | Letter Combinations of a Phone Number | [Problem](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/letter-combinations-of-a-phone-number/src/ca/uwaterloo/Solution.java) |
 | 4Sum | [Problem](https://leetcode.com/problems/4sum) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/4sum/src/ca/uwaterloo/Solution.java) |
 | Remove Nth Node From End of List | [Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/remove-nth-node-from-end-of-list/src/ca/uwaterloo/Solution.java) |
+| Valid Parentheses | [Problem](https://leetcode.com/problems/valid-parentheses) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/valid-parentheses/src/ca/uwaterloo/Solution.java) |

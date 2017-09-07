@@ -25,3 +25,4 @@
 | Merge Two Sorted Lists | [Problem](https://leetcode.com/problems/merge-two-sorted-lists) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/merge-two-sorted-lists/src/ca/uwaterloo/Solution.java) |
 | Generate Parentheses | [Problem](https://leetcode.com/problems/generate-parentheses) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/generate-parentheses/src/ca/uwaterloo/Solution.java) |
 | Merge k Sorted Lists | [Problem](https://leetcode.com/problems/merge-k-sorted-lists) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/merge-k-sorted-lists/src/ca/uwaterloo/Solution.java) |
+|  | [Problem](https://leetcode.com/problems/swap-nodes-in-pairs) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/swap-nodes-in-pairs/src/ca/uwaterloo/Solution.java) |

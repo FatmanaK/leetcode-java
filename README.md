@@ -26,3 +26,4 @@
 | Generate Parentheses | [Problem](https://leetcode.com/problems/generate-parentheses) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/generate-parentheses/src/ca/uwaterloo/Solution.java) |
 | Merge k Sorted Lists | [Problem](https://leetcode.com/problems/merge-k-sorted-lists) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/merge-k-sorted-lists/src/ca/uwaterloo/Solution.java) |
 | Swap Nodes in Pairs | [Problem](https://leetcode.com/problems/swap-nodes-in-pairs) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/swap-nodes-in-pairs/src/ca/uwaterloo/Solution.java) |
+| Reverse Nodes in k-Group | [Problem](https://leetcode.com/problems/reverse-nodes-in-k-group) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/reverse-nodes-in-k-group/src/ca/uwaterloo/Solution.java) |

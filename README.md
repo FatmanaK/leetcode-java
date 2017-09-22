@@ -28,3 +28,4 @@
 | Swap Nodes in Pairs | [Problem](https://leetcode.com/problems/swap-nodes-in-pairs) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/swap-nodes-in-pairs/src/ca/uwaterloo/Solution.java) |
 | Reverse Nodes in k-Group | [Problem](https://leetcode.com/problems/reverse-nodes-in-k-group) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/reverse-nodes-in-k-group/src/ca/uwaterloo/Solution.java) |
 | Remove Duplicates from Sorted Array | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/remove-duplicates-from-sorted-array/src/ca/uwaterloo/Solution.java) |
+| Remove Element | [Problem](https://leetcode.com/problems/remove-element) | [Solution](https://github.com/v1n337/leetcode/tree/master/solutions/remove-element/src/ca/uwaterloo/Solution.java) |

@@ -1,7 +1,5 @@
 package ca.uwaterloo;
 
-import java.util.Arrays;
-
 class Solution {
     public int removeElement(int[] nums, int val) {
 
